@@ -2,7 +2,18 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        text: '#fff',
+        primary: '#576cbc',
+        secondary: '#19376d',
+        dark: '#0b2447',
+        dark2: '#04152d',
+      },
+    },
+    fontFamily: {
+      outfit: ['Outfit', 'Arial', 'Helvetica', 'sans-serif'],
+    },
   },
   plugins: [],
 };

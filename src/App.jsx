@@ -1,8 +1,12 @@
+import Navbar from './components/Navbar';
+import image from './assets/nav/closeIcon.png';
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <div className="bg-dark2 w-full h-full overflow-hidden font-outfit">
+      <Navbar />
+      {/* <img src={image} alt="" /> */}
+    </div>
   );
 }
 
