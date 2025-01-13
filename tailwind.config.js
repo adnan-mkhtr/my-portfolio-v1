@@ -13,6 +13,20 @@ export default {
     },
     fontFamily: {
       outfit: ['Outfit', 'Arial', 'Helvetica', 'sans-serif'],
+      roboto: ['Roboto', 'sans-serif'],
+    },
+    animation: {
+      floating: 'float 3s ease-in-out infinite',
+    },
+    keyframes: {
+      float: {
+        '0%': { transform: 'translateY(0px)' },
+        '50%': { transform: 'translateY(-10px)' },
+        '100%': { transform: 'translateY(-0px)' },
+      },
+    },
+    screens: {
+      'max-830': { max: '830px' },
     },
   },
   plugins: [],

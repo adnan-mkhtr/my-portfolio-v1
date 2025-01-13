@@ -47,13 +47,13 @@ const Navbar = () => {
       <ul
         className={
           menuOpen
-            ? 'fixed md:hidden left-0 top-4 w-[60%] h-full border-r border-r-gray-900 bg-dark2 ease-in-out duration-500'
+            ? 'fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-dark2 ease-in-out duration-500'
             : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
         }
       >
         {/* Mobile Logo */}
         <a
-          className=" p-4 text-3xl font-semibold no-underline text-text"
+          className="flex items-center p-6 text-3xl font-semibold no-underline text-text"
           href="/"
         >
           Portfolio
@@ -63,7 +63,7 @@ const Navbar = () => {
         {navItems.map((item) => (
           <li
             key={item.id}
-            className="mt-4 p-4 border-b text-text cursor-pointer border-gray-600"
+            className="text-2xl mt-4 p-6 border-b text-text cursor-pointer border-gray-600"
           >
             <a href={item.href} className="no-underline">
               {item.text}
