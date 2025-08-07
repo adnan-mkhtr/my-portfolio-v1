@@ -1,31 +1,43 @@
-import heroImage from '../assets/hero/heroImage.png';
+import profilePic from '../assets/adnanProfile2-copy.jpg';
+import { HERO_CONTENT } from '../constants';
 
 const Hero = () => {
   return (
-    <section className="relative flex items-center justify-between mt-12 z-[1] mx-[10%] max-830:flex-col-reverse">
-      <div className="flex flex-col items-start text-text z-[1] max-830:items-center">
-        <h1 className="text-[72px] font-[900] mb-8 font-outfit bg-clip-text">
-          Hi, I'm Adnan
-        </h1>
-        <p className="text-[30px] font-outfit mb-[52px]">
-          I'm a full-stack developer with 5 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
-        </p>
-        <a
-          className="bg-primary text-text rounded-full text-[30px] font-semibold px-6 py-4 shadow-md hover:shadow-lg transition-shadow no-underline"
-          href=""
-        >
-          Contact Me
-        </a>
+    <div className="pb-4 lg:mb-36">
+      <div className="flex flex-wrap lg:flex-row-reverse">
+        <div className="w-full lg:w-1/2">
+          <div className="flex justify-center lg:p-8">
+            <img
+              src={profilePic}
+              alt="Adnan Mukhtar"
+              className="border border-stone-900 rounded-3xl"
+            />
+          </div>
+        </div>
+        <div className="w-full lg:w-1/2">
+          <div className="flex flex-col items-center lg:items-start mt-10">
+            <h2 className="pb-2 text-4xl tracking-tighter lg:text-8xl">
+              Adnan Mukhtar
+            </h2>
+            <span className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">
+              Frontend Developer
+            </span>
+            <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
+              {HERO_CONTENT}
+            </p>
+            <a
+              href=""
+              target="_blank"
+              rel="noreferrer noopenner"
+              download
+              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
+            >
+              Download Resume
+            </a>
+          </div>
+        </div>
       </div>
-      <img
-        src={heroImage}
-        alt="Hero"
-        className="w-1/2 z-[1] animate-floating"
-      />
-      <div className="absolute w-[50vw] h-[50vw] min-w-[350px] top-[-128px] left-[-10vw] rounded-full bg-secondary/70 blur-[100px] z-0" />
-      <div className="absolute w-[70vw] h-[50vw] min-w-[250px] top-[246px] right-[-25vw] rounded-full bg-secondary/70 blur-[100px] z-0" />
-    </section>
+    </div>
   );
 };
 
