@@ -15,6 +15,7 @@ function App() {
       <div className="container mx-auto px-16">
         <Navbar />
         <Hero />
+        <Tools />
       </div>
     </div>
   );
