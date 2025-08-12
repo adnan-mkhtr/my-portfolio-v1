@@ -5,7 +5,7 @@ import { TbBrandNextjs } from 'react-icons/tb';
 
 const Tools = () => {
   return (
-    <div className="pb-24">
+    <section id="tech" className="pb-24">
       <h2 className="my-20 text-center text-4xl">Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div>
@@ -27,7 +27,7 @@ const Tools = () => {
           <BiLogoPostgresql className="text-7xl text-sky-700" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Tools;

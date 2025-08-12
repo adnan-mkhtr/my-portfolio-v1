@@ -1,9 +1,10 @@
+import { FiDownload } from 'react-icons/fi';
 import profilePic from '../assets/adnanProfile2-copy.jpg';
 import { HERO_CONTENT } from '../constants';
 
 const Hero = () => {
   return (
-    <div className="pb-4 lg:mb-36">
+    <section id="hero" className="pt-4 pb-4 lg:mb-36">
       <div className="flex flex-wrap lg:flex-row-reverse">
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:p-8">
@@ -30,14 +31,17 @@ const Hero = () => {
               target="_blank"
               rel="noreferrer noopenner"
               download
-              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
+              className="flex items-center justify-center bg-white rounded-full p-4 text-sm text-stone-800 mb-10 hover:-translate-y-2 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] transition-all"
             >
-              Download Resume
+              <p>Download Resume</p>
+              <span className="ml-2 text-xl">
+                <FiDownload />
+              </span>
             </a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

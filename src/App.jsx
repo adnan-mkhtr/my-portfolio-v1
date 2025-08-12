@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Tools from './components/Tools';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -12,11 +13,12 @@ function App() {
           <div className="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]"></div>
         </div>
       </div>
-      <div className="container mx-auto px-16">
-        <Navbar />
+      <Navbar />
+      <div className="container mx-auto px-16 pt-20">
         <Hero />
         <Tools />
         <Projects />
+        <Contact />
       </div>
     </div>
   );
