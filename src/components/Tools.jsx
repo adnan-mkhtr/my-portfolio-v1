@@ -2,7 +2,7 @@ import { BiLogoPostgresql, BiLogoTailwindCss } from 'react-icons/bi';
 import { FaNodeJs, FaPython } from 'react-icons/fa';
 import { RiReactjsLine } from 'react-icons/ri';
 import { TbBrandNextjs } from 'react-icons/tb';
-import { animate, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },

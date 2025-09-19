@@ -45,18 +45,18 @@ const Contact = () => {
             <FaGithub />
           </a>
           <a
-            href="https://github.com/adnan-mkhtr"
+            href="https://www.linkedin.com/in/adnan-mukhtar-284136231/"
             target="_blank"
             rel="noreferrer noopenner"
-            aria-label="Github"
+            aria-label="Linkedin"
           >
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/adnan-mkhtr"
+            href="https://www.instagram.com/adnanmkhtr/"
             target="_blank"
             rel="noreferrer noopenner"
-            aria-label="Github"
+            aria-label="Instagram"
           >
             <FaInstagram />
           </a>
