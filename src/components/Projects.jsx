@@ -1,5 +1,6 @@
 import { PROJECTS } from '../constants';
 import { motion } from 'framer-motion';
+import { FaArrowRight } from 'react-icons/fa';
 
 const Projects = () => {
   return (
@@ -45,6 +46,24 @@ const Projects = () => {
                   {tech}
                 </span>
               ))}
+              <motion.div
+                whileInView={{ opacity: 1, x: 0 }}
+                // whileHover={{ background: '#292524' }}
+                initial={{ opacity: 0, x: 100 }}
+                transition={{ duration: 1.5 }}
+                className="mt-5 w-full max-w-xl lg:w-3/4"
+              >
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-2 rounded bg-white p-2 font-medium text-sm text-stone-800 hover:bg-stone-300 hover:-translate-y-1 transition"
+                  >
+                    View Project
+                  </a>
+                )}
+              </motion.div>
             </motion.div>
           </div>
         ))}
