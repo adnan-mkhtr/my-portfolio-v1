@@ -1,6 +1,5 @@
 import { PROJECTS } from '../constants';
 import { motion } from 'framer-motion';
-import { FaArrowRight } from 'react-icons/fa';
 
 const Projects = () => {
   return (
