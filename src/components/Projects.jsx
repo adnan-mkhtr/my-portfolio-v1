@@ -33,7 +33,7 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1.5 }}
-              className="w-full max-w-xl lg:w-3/4"
+              className="ml-1 w-full max-w-xl lg:w-3/4"
             >
               <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
               <p className="mb-4 text-stone-400">{project.description}</p>
