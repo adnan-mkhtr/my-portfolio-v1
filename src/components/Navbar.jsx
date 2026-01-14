@@ -28,6 +28,14 @@ const Navbar = () => {
             {/* <FaLinkedin /> */}
           </a>
           <a
+            href="#experience"
+            rel="noreferrer noopenner"
+            aria-label="Experience"
+            className="hover:text-white hover:-translate-y-1 transition"
+          >
+            Experience
+          </a>
+          <a
             href="#projects"
             rel="noreferrer noopenner"
             aria-label="Projects"

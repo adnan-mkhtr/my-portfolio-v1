@@ -14,8 +14,8 @@ export const EXPERIENCES = [
     year: 'Oct 2025 - Present',
     role: 'Developer Internship',
     company: 'Telkom Indonesia - GovTech Procurement',
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ['TypeScript', 'Next.js', 'GraphQL'],
+    description: `During my internship with the TechOps team at Telkom Indonesia, I contributed to the development and maintenance of internal applications for LKPP, including a ticket-based Helpdesk App used by CS teams (L0 & L1). I worked on frontend role-based access control, backend integration for user data management, and participated in testing and production release. I also contributed to a Mini App project by refactoring Express.js backend services to GraphQL, implementing features such as user validation, data updates, and verification acceptance.`,
+    technologies: ['TypeScript', 'Next.js', 'GraphQL', 'Express.js'],
   },
 ];
 
