@@ -1,7 +1,7 @@
 // import project1 from '../assets/projects/project-1.webp';
 import project1 from '../assets/projects/project-1.png';
-import project2 from '../assets/projects/project-2.webp';
-import project3 from '../assets/projects/project-3.webp';
+import project2 from '../assets/projects/project-2.png';
+// import project3 from '../assets/projects/project-3.webp';
 // import project4 from '../assets/projects/project-4.webp';
 
 export const NAME = 'Adnan Mukhtar';
@@ -27,8 +27,6 @@ export const PROJECTS = [
     description:
       'A simple e-commerce website that I created for practice with features such as a shopping cart, product search, and product listing',
     technologies: [
-      'HTML',
-      'CSS',
       'React',
       'Redux',
       'Axios',
@@ -37,13 +35,14 @@ export const PROJECTS = [
     ],
     link: 'https://comfyshop-app.netlify.app/',
   },
-  // {
-  //   title: 'Task Management App',
-  //   image: project2,
-  //   description:
-  //     'An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.',
-  //   technologies: ['HTML', 'CSS', 'Angular', 'Firebase'],
-  // },
+  {
+    title: 'Search Github User',
+    image: project2,
+    description:
+      'A web application that allows users to search and view GitHub profiles in real-time using the GitHub GraphQL API. ',
+    technologies: ['React', 'Typescript', 'Tailwindcss', 'Shadcn UI', 'GraphQL', 'Apollo'],
+    link: 'https://user-search-gh.netlify.app/',
+  },
   // {
   //   title: 'Portfolio Website',
   //   image: project3,
