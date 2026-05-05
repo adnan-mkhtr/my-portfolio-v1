@@ -41,8 +41,8 @@ const Hero = () => {
               alt="Adnan Mukhtar"
               className="border border-stone-900 rounded-3xl"
               initial={{ x: 100, opacity: 0 }}
-              animate={{ 
-                x: 0, 
+              animate={{
+                x: 0,
                 opacity: 1,
                 y: [0, -10, 0],
               }}
@@ -93,7 +93,7 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p>
             <motion.a
-            href='/CV_AdnanMukhtar.pdf'
+              href="/AdnanMukhtar_CV.pdf"
               whileHover={{
                 scale: 1.05,
                 boxShadow: '0px 10px 30px rgba(255,255,255,0.15)',

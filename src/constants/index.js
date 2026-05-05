@@ -12,10 +12,10 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: 'Oct 2025 - Present',
+    year: 'Oct 2025 - Apr 2026',
     role: 'Developer Internship',
     company: 'Telkom Indonesia - GovTech Procurement',
-    description: `During my internship with the TechOps team at Telkom Indonesia, I contributed to the development and maintenance of internal applications for LKPP, including a ticket-based Helpdesk App used by CS teams (L0 & L1). I worked on frontend role-based access control, backend integration for user data management, and participated in testing and production release. I also contributed to a Mini App project by refactoring Express.js backend services to GraphQL, implementing features such as user validation, data updates, and verification acceptance.`,
+    description: `During my internship at PT Telkom Indonesia (GovTech Procurement), I contributed to the development and maintenance of an internal Helpdesk application (Inaproc) for LKPP using Next.js and GraphQL. I built role-based frontend features, implemented dynamic ticket-based data display, and integrated frontend with backend services to support functionalities such as email updates and phone number resets. I also contributed to backend refactoring by transitioning from direct database queries in Express.js to a GraphQL-based architecture, while implementing features such as user verification and data updates. Additionally, I was involved in testing, deployment, maintenance, and bug fixing, as well as enhancing the application by adding new modules like Akun SiKaP and improving overall error handling.`,
     technologies: ['TypeScript', 'Next.js', 'GraphQL', 'Express.js'],
   },
 ];
@@ -26,13 +26,7 @@ export const PROJECTS = [
     image: project1,
     description:
       'A simple e-commerce website that I created for practice with features such as a shopping cart, product search, and product listing',
-    technologies: [
-      'React',
-      'Redux',
-      'Axios',
-      'Tailwindcss',
-      'Daisy UI',
-    ],
+    technologies: ['React', 'Redux', 'Axios', 'Tailwindcss', 'Daisy UI'],
     link: 'https://comfyshop-app.netlify.app/',
   },
   {
@@ -40,7 +34,14 @@ export const PROJECTS = [
     image: project2,
     description:
       'A web application that allows users to search and view GitHub profiles in real-time using the GitHub GraphQL API. ',
-    technologies: ['React', 'Typescript', 'Tailwindcss', 'Shadcn UI', 'GraphQL', 'Apollo'],
+    technologies: [
+      'React',
+      'Typescript',
+      'Tailwindcss',
+      'Shadcn UI',
+      'GraphQL',
+      'Apollo',
+    ],
     link: 'https://user-search-gh.netlify.app/',
   },
   // {
