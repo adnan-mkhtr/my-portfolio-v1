@@ -37,14 +37,16 @@ const Projects = () => {
             >
               <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
               <p className="mb-4 text-stone-400">{project.description}</p>
-              {project.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 rounded bg-stone-900 p-2 font-medium text-sm text-stone-300"
-                >
-                  {tech}
-                </span>
-              ))}
+              <div className="flex flex-wrap gap-2">
+                {project.technologies.map((tech, index) => (
+                  <span
+                    key={index}
+                    className="rounded bg-stone-900 px-2 py-1 font-medium text-sm text-stone-300"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 // whileHover={{ background: '#292524' }}
@@ -57,7 +59,7 @@ const Projects = () => {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-2 rounded bg-white p-2 font-medium text-sm text-stone-800 hover:bg-stone-300 hover:-translate-y-1 transition"
+                    className="mt-2 inline-block rounded bg-white px-4 py-2 font-medium text-sm text-stone-800 hover:bg-stone-300 hover:-translate-y-1 transition"
                   >
                     View Project
                   </a>

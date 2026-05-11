@@ -25,7 +25,7 @@ export const PROJECTS = [
     title: 'Comfy Store (E-commerce)',
     image: project1,
     description:
-      'A simple e-commerce website that I created for practice with features such as a shopping cart, product search, and product listing',
+      'A simple e-commerce website that I created for practice with features such as a shopping cart, product search, and product listing. ',
     technologies: ['React', 'Redux', 'Axios', 'Tailwindcss', 'Daisy UI'],
     link: 'https://comfyshop-app.netlify.app/',
   },
