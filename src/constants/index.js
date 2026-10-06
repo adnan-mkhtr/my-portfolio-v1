@@ -13,9 +13,16 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const EXPERIENCES = [
   {
     year: 'Oct 2025 - Apr 2026',
-    role: 'Developer Internship',
-    company: 'Telkom Indonesia - GovTech Procurement',
+    role: 'Frontend Developer Internship',
+    company: 'PT. Telkom Indonesia - GovTech Procurement',
     description: `During my internship at PT Telkom Indonesia (GovTech Procurement), I contributed to the development and maintenance of an internal Helpdesk application (Inaproc) for LKPP using Next.js and GraphQL. I built role-based frontend features, implemented dynamic ticket-based data display, and integrated frontend with backend services to support functionalities such as email updates and phone number resets. I also contributed to backend refactoring by transitioning from direct database queries in Express.js to a GraphQL-based architecture, while implementing features such as user verification and data updates. Additionally, I was involved in testing, deployment, maintenance, and bug fixing, as well as enhancing the application by adding new modules like Akun SiKaP and improving overall error handling.`,
+    technologies: ['TypeScript', 'Next.js', 'GraphQL', 'Express.js'],
+  },
+  {
+    year: 'July 2026 - Present',
+    role: 'Software Developer Junior',
+    company: 'PT. Telkom Indonesia - GovTech Procurement',
+    description: `Contract with PT. Infomedia Nusantara, assigned to PT. Telkom Indonesia@Govtech Procurement. Reassigned by the Lead FE to manage the Ticket App/Helpdesk App project. At the beginning of the period, reviewed and addressed several CVEs based on the results of the "pnpm audit". Subsequently, configured access rules for the Metabase-based Ticket Monitoring feature using Auth0 permissions, ensuring that only AdminSupportL1 users with the appropriate access can access this feature. Additionally, I expanded the access rights of AdminSupportL0 so they could change users’ email addresses and reset their phone numbers to support more efficient ticket resolution. I developed access controls for the Ticket Monitoring feature so that AdminSupportL0 could access data corresponding to the LPSE under their responsibility by adjusting Metabase parameters based on the user’s LPSE data. Next, worked on the UI and backend integration for the Inaproc order ticket complaint handling feature for AdminSupportL1, specifically to revert the BAPP/BAST status under certain conditions. This feature was subsequently put on hold. After that, I developed the User Data Search feature for searches based on NIK, NIP, email, and phone number. I continued developing the User Data Search feature, from UI creation to backend integration using GraphQL, and refactored the code based on reviews from the Tech Lead and colleagues. Next, I implemented the Inaproc Help Center chatbot UI based on the Figma design, including the user profile and logout options on the navbar, and improved the logic.`,
     technologies: ['TypeScript', 'Next.js', 'GraphQL', 'Express.js'],
   },
 ];
