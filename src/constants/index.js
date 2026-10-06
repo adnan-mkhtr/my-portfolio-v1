@@ -15,14 +15,24 @@ export const EXPERIENCES = [
     year: 'Oct 2025 - Apr 2026',
     role: 'Frontend Developer Internship',
     company: 'PT. Telkom Indonesia - GovTech Procurement',
-    description: `During my internship at PT Telkom Indonesia (GovTech Procurement), I contributed to the development and maintenance of an internal Helpdesk application (Inaproc) for LKPP using Next.js and GraphQL. I built role-based frontend features, implemented dynamic ticket-based data display, and integrated frontend with backend services to support functionalities such as email updates and phone number resets. I also contributed to backend refactoring by transitioning from direct database queries in Express.js to a GraphQL-based architecture, while implementing features such as user verification and data updates. Additionally, I was involved in testing, deployment, maintenance, and bug fixing, as well as enhancing the application by adding new modules like Akun SiKaP and improving overall error handling.`,
+    description: [
+      'Contributed to the development and maintenance of the internal Inaproc Helpdesk web application for LKPP using Next.js and GraphQL.',
+      'Built role-based frontend features with dynamic ticket data displays, integrating services for user verification, email updates, and phone resets.',
+      'Participated in backend refactoring from direct Express.js queries to GraphQL-based architecture, improving error handling and maintainability.',
+      'Enhanced the application by integrating new modules like Akun SiKaP, writing tests, and performing bug fixes and deployments.',
+    ],
     technologies: ['TypeScript', 'Next.js', 'GraphQL', 'Express.js'],
   },
   {
     year: 'July 2026 - Present',
     role: 'Software Developer Junior',
     company: 'PT. Telkom Indonesia - GovTech Procurement',
-    description: `Contract with PT. Infomedia Nusantara, assigned to PT. Telkom Indonesia@Govtech Procurement. Reassigned by the Lead FE to manage the Ticket App/Helpdesk App project. At the beginning of the period, reviewed and addressed several CVEs based on the results of the "pnpm audit". Subsequently, configured access rules for the Metabase-based Ticket Monitoring feature using Auth0 permissions, ensuring that only AdminSupportL1 users with the appropriate access can access this feature. Additionally, I expanded the access rights of AdminSupportL0 so they could change users’ email addresses and reset their phone numbers to support more efficient ticket resolution. I developed access controls for the Ticket Monitoring feature so that AdminSupportL0 could access data corresponding to the LPSE under their responsibility by adjusting Metabase parameters based on the user’s LPSE data. Next, worked on the UI and backend integration for the Inaproc order ticket complaint handling feature for AdminSupportL1, specifically to revert the BAPP/BAST status under certain conditions. This feature was subsequently put on hold. After that, I developed the User Data Search feature for searches based on NIK, NIP, email, and phone number. I continued developing the User Data Search feature, from UI creation to backend integration using GraphQL, and refactored the code based on reviews from the Tech Lead and colleagues. Next, I implemented the Inaproc Help Center chatbot UI based on the Figma design, including the user profile and logout options on the navbar, and improved the logic.`,
+    description: [
+      'Resolved critical CVE vulnerabilities identified via pnpm audit and maintained the Inaproc Helpdesk platform.',
+      'Configured Auth0 role-based access control and integrated dynamic Metabase parameter filters for regional LPSE Ticket Monitoring.',
+      'Developed end-to-end User Data Search module (NIK, NIP, email, and phone) with Next.js and GraphQL integration.',
+      'Implemented the Inaproc Help Center chatbot interface based on Figma design, including user profile and session management.',
+    ],
     technologies: ['TypeScript', 'Next.js', 'GraphQL', 'Express.js'],
   },
 ];

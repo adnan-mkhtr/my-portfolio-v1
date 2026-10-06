@@ -35,7 +35,17 @@ const Experience = () => {
                   {experience.company}
                 </span>
               </h3>
-              <p className="mb-4 text-stone-400">{experience.description}</p>
+              {Array.isArray(experience.description) ? (
+                <ul className="mb-4 list-disc space-y-1.5 pl-4 text-stone-400">
+                  {experience.description.map((item, idx) => (
+                    <li key={idx} className="leading-relaxed">
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="mb-4 text-stone-400">{experience.description}</p>
+              )}
               <div className="flex flex-wrap gap-2">
                 {experience.technologies.map((tech, index) => (
                   <span
