@@ -28,6 +28,7 @@ export const EXPERIENCES = [
     role: 'Software Developer Junior',
     company: 'PT. Telkom Indonesia - GovTech Procurement',
     description: [
+      'Contract with PT. Infomedia Nusantara, assigned to PT. Telkom Indonesia (GovTech Procurement) to manage and develop the Ticket/Helpdesk application project.',
       'Resolved critical CVE vulnerabilities identified via pnpm audit and maintained the Inaproc Helpdesk platform.',
       'Configured Auth0 role-based access control and integrated dynamic Metabase parameter filters for regional LPSE Ticket Monitoring.',
       'Developed end-to-end User Data Search module (NIK, NIP, email, and phone) with Next.js and GraphQL integration.',
