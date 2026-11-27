@@ -21,7 +21,7 @@ export const EXPERIENCES = [
       'Participated in backend refactoring from direct Express.js queries to GraphQL-based architecture, improving error handling and maintainability.',
       'Enhanced the application by integrating new modules like Akun SiKaP, writing tests, and performing bug fixes and deployments.',
     ],
-    technologies: ['TypeScript', 'Next.js', 'GraphQL', 'Express.js'],
+    technologies: ['TypeScript', 'Next.js', 'GraphQL', 'React', 'TanStack Query'],
   },
   {
     year: 'July 2026 - Present',
@@ -34,7 +34,7 @@ export const EXPERIENCES = [
       'Developed end-to-end User Data Search module (NIK, NIP, email, and phone) with Next.js and GraphQL integration.',
       'Implemented the Inaproc Help Center chatbot interface based on Figma design, including user profile and session management.',
     ],
-    technologies: ['TypeScript', 'Next.js', 'GraphQL', 'Express.js'],
+    technologies: ['TypeScript', 'Next.js', 'GraphQL', 'React'],
   },
 ];
 
